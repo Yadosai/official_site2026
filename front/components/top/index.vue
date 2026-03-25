@@ -111,6 +111,38 @@ export default {
     margin: 0px;
 }
 
+#updateInfo {
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.updateInfoTitle {
+    font-family: map-get($font-styles, family);
+    font-style: map-get($font-styles, style);
+    font-weight: map-get($font-styles, weight);
+    line-height: map-get($font-styles, line-height);
+    align-self: stretch;
+    color: $secondary-color;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    margin: 0px;
+}
+
+.updateInfoContent {
+    display: flex;
+    padding: 0px 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
 #LinkButtons {
     display: flex;
     padding: 25px;
@@ -182,6 +214,10 @@ export default {
         right: 10px;
         bottom: 20px;
         font-size: 5vh;
+    }
+
+    .updateInfoTitle {
+        font-size: 40px;
     }
 
     .trafficTitle {
