@@ -4,9 +4,6 @@
     </div>
 </template>
 
-<script>
-</script>
-
 <style lang="scss">
 .Welcome {
     text-align: center;
