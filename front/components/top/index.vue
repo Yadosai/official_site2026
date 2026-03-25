@@ -8,12 +8,6 @@
         </div>
         
     </div>
-    <div id="updateInfo">
-        <p class="updateInfoTitle">ご報告</p>
-        <div class="updateInfoContent">
-            <updataInfoItem updateDate="" contentText="このたび、5月30日(金)の宿舎祭前夜祭にて、社会工学類1年2・4クラスの模擬店「クレープ&スムージークレイジー」において、ブラスチック片が混入したスムージー約8食のうち、4食が提供されていたことが判明しました。20時頃に委員が状況を確認し、ただちに販売の中止を命じました。該当商品はすべて廃棄するよう指示し、出店団体には厳重注意を行いました。6月1日(日)の本祭において同団体からはスムージーの提供は行いませんでした。また、提供されたスムージーのうち2食は、すでに委員会で回収済みです。現在のところ健康被害の報告はございませんが、体調に不安がある方はyadosai.tkb@gmail.com までご連絡ください。各種SNSのDMでも対応しております。" />
-        </div>
-    </div>
     <div id="LinkButtons">
         <buttonItem textHighlightedFirst="模" textMiddlePart="擬店" colorType="black" position="left"
             navigateTo="mogiten" />
@@ -39,10 +33,9 @@
 
 <script>
 import buttonItem from '~/components/top/buttonItem'
-import updataInfoItem from '~/components/top/updataInfoItem'
 
 export default {
-    components: { buttonItem, updataInfoItem },
+    components: { buttonItem },
 }
 </script>
 
@@ -118,38 +111,6 @@ export default {
     margin: 0px;
 }
 
-#updateInfo {
-    display: flex;
-    padding: 25px;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    align-self: stretch;
-}
-
-.updateInfoTitle {
-    font-family: map-get($font-styles, family);
-    font-style: map-get($font-styles, style);
-    font-weight: map-get($font-styles, weight);
-    line-height: map-get($font-styles, line-height);
-    align-self: stretch;
-    color: $secondary-color;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 24px;
-    margin: 0px;
-}
-
-.updateInfoContent {
-    display: flex;
-    padding: 0px 25px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-    align-self: stretch;
-}
-
 #LinkButtons {
     display: flex;
     padding: 25px;
@@ -221,10 +182,6 @@ export default {
         right: 10px;
         bottom: 20px;
         font-size: 5vh;
-    }
-
-    .updateInfoTitle {
-        font-size: 40px;
     }
 
     .trafficTitle {
