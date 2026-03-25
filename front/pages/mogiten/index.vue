@@ -1,12 +1,12 @@
 <template>
-    <welcome />
+    <comingsoon />
 </template>
   
 <script>
-import welcome from '~/components/welcome/index.vue'
+import comingsoon from '~/components/comingsoon/index.vue'
 
 export default {
-    components: { welcome },
+    components: { comingsoon },
     layout: "default",
 }
 </script>
