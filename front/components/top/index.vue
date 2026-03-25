@@ -4,7 +4,7 @@
         <div class="text-overlay">
             <p class="eyeCatchTitle">やどかり祭</p>
             <p class="eyeCatchSubtitle">～<ruby>祭開始<rt>再スタート</rt></ruby>～</p>
-            <p class="eyeCatchDate">5/29,30,(31)</p>
+            <p class="eyeCatchDate">5/29,30</p>
         </div>
         
     </div>
