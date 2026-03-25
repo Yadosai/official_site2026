@@ -17,7 +17,7 @@
                     <NuxtLink to="/" class="menuItem" @click.native="closeMenu">ホーム</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/welcome" class="menuItem" @click.native="closeMenu">welcome</NuxtLink>
+                    <NuxtLink to="/mogiten" class="menuItem" @click.native="closeMenu">模擬店</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink to="/kikaku" class="menuItem" @click.native="closeMenu">企画</NuxtLink>
@@ -48,7 +48,7 @@
                     <a href="/" class="menuItem" @click.native="closeMenu">ホーム</a>
                 </li>
                 <li>
-                    <NuxtLink to="/welcome" class="menuItem" @click.native="closeMenu">welcome</NuxtLink>
+                    <NuxtLink to="/mogiten" class="menuItem" @click.native="closeMenu">模擬店</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink to="/kikaku" class="menuItem" @click.native="closeMenu">企画</NuxtLink>

@@ -1,12 +1,12 @@
 <template>
-    <mogiten />
+    <welcome />
 </template>
   
 <script>
-import mogiten from '~/components/mogiten/index.vue'
+import welcome from '~/components/welcome/index.vue'
 
 export default {
-    components: { mogiten },
+    components: { welcome },
     layout: "default",
 }
 </script>
