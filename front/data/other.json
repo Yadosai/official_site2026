@@ -1,0 +1,13 @@
+{
+  "otherItems": [
+    {
+      "itemTitle": "つくばinfo",
+      "itemContents": [
+        { "text": "サービス開始　2024年4月", "href": "" },
+        { "text": "概要　地域密着型に徹することでお店とヒトを繋ぐ、古いタイプの新しいSNSサービスです。", "href": "" },
+        { "text": "URL:https://www.tsukuba-info.com/", "href": "https://www.tsukuba-info.com/" }
+      ],
+      "itemFontSize": "18px"
+    }
+  ]
+}
