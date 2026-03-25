@@ -15,8 +15,8 @@
         </div>
     </div>
     <div id="LinkButtons">
-        <buttonItem textHighlightedFirst="模" textMiddlePart="擬店" colorType="black" position="left"
-            navigateTo="mogiten" />
+        <buttonItem textHighlightedFirst="W" textMiddlePart="elcome" colorType="black" position="left"
+            navigateTo="welcome" />
         <buttonItem textHighlightedFirst="企" textMiddlePart="画" colorType="white" position="right"
             navigateTo="kikaku" />
         <buttonItem textHighlightedFirst="新" textMiddlePart="歓" colorType="black" position="left" navigateTo="sinkan" />
