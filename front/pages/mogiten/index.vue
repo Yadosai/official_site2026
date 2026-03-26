@@ -1,12 +1,12 @@
 <template>
-    <mogiten />
+    <comingsoon />
 </template>
   
 <script>
-import mogiten from '~/components/mogiten/index.vue'
+import comingsoon from '~/components/comingsoon/index.vue'
 
 export default {
-    components: { mogiten },
+    components: { comingsoon },
     layout: "default",
 }
 </script>
