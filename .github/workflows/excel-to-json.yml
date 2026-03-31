@@ -1,0 +1,30 @@
+name: Excel to JSON
+
+on:
+  push:
+    paths:
+      - 'data/mogiten.xlsx'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install xlsx
+
+      - name: Convert Excel to JSON
+        run: node scripts/excel-to-json.js
+
+      - name: Commit updated JSON
+        run: |
+          git config user.email "bot@yadosai"
+          git config user.name "yadosai-bot"
+          git add front/data/mogiten.json
+          git diff --cached --quiet || git commit -m "chore: update mogiten.json from excel"
+          git push
