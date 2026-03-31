@@ -2,7 +2,7 @@
   "mogiten": [
     {
       "mogitenName": "本場たこ焼き　MAIDO",
-      "mogitenFontSize": "24px",
+      "mogitenFontSize": "16px",
       "organizationName": "物理学類1年",
       "mogitenIntroduction": "大阪出身者完全監修のもと、本場の味を完全再現！ めっちゃうまいたこ焼きを食べなはれ！！",
       "mogitenId": "1",
@@ -29,7 +29,7 @@
     },
     {
       "mogitenName": "Pizzeria Hirasuna",
-      "mogitenFontSize": "24px",
+      "mogitenFontSize": "16px",
       "organizationName": "情報科学研究会",
       "mogitenIntroduction": "熱々ピザ窯から出来たて提供！こだわり生地と厳選素材の本格ピザです！",
       "mogitenId": "4",
@@ -119,7 +119,7 @@
     },
     {
       "mogitenName": "Hola!!TACOS!!",
-      "mogitenFontSize": "24px",
+      "mogitenFontSize": "16px",
       "organizationName": "社会工学類1-1,3",
       "mogitenIntroduction": "挨拶より先に、まずタコス！Hola!! TACOS!!で会いましょう！",
       "mogitenId": "14",
@@ -137,9 +137,9 @@
     },
     {
       "mogitenName": "はなまるカステラ ~edu~",
-      "mogitenFontSize": "24px",
+      "mogitenFontSize": "16px",
       "organizationName": "教育1クラス",
-      "mogitenIntroduction": "'ひとくちのやさしさ'を、あなたに。",
+      "mogitenIntroduction": "“ひとくちのやさしさ”を、あなたに。",
       "mogitenId": "16",
       "holdingTime_1": "両日",
       "holdingTime_2": ""
@@ -150,7 +150,7 @@
       "organizationName": "九州人会",
       "mogitenIntroduction": "九州人会初となる出品は、福岡県太宰府の有名焼き菓子「梅ヶ枝餅」！ 本場の味を召し上がれ！！！",
       "mogitenId": "17",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -186,7 +186,7 @@
       "organizationName": "体育専門学群1-2",
       "mogitenIntroduction": "ぜひ来てください！",
       "mogitenId": "21",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -213,7 +213,7 @@
       "organizationName": "硬式野球部",
       "mogitenIntroduction": "豪華景品があたるかも？！",
       "mogitenId": "24",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -231,7 +231,7 @@
       "organizationName": "生物学類3-4クラス",
       "mogitenIntroduction": "？！核膜ぶち抜き注意！？染色体がザワつく美味さ…ベビー核テラ(カステラ)ただいま大量分裂中！！！",
       "mogitenId": "26",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -319,7 +319,7 @@
       "mogitenName": "スモア内科",
       "mogitenFontSize": "24px",
       "organizationName": "医学類1年1,5クラス",
-      "mogitenIntroduction": "焦がしたてのマシュマロとチョコのスモアを'処方'します。やど祭限定、あま〜い診療所です！",
+      "mogitenIntroduction": "焦がしたてのマシュマロとチョコのスモアを\"処方”します。やど祭限定、あま〜い診療所です！",
       "mogitenId": "36",
       "holdingTime_1": "両日",
       "holdingTime_2": ""
@@ -330,7 +330,7 @@
       "organizationName": "珈琲・俺",
       "mogitenIntroduction": "昨年雙峰祭グランプリを受賞した珈琲・俺が出店！25年間紡がれてきたこだわりの珈琲をお楽しみください",
       "mogitenId": "37",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -357,12 +357,12 @@
       "organizationName": "生物学類1年1、2クラス",
       "mogitenIntroduction": "その食感はまるでアメーバ！？わらび餅のぷにぷにとドリンクの甘さが詰まった生物学類１年特製の一品です！",
       "mogitenId": "40",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
       "mogitenName": "ハリーポッてーと賢者の石",
-      "mogitenFontSize": "24px",
+      "mogitenFontSize": "16px",
       "organizationName": "総合学域群3類1年4,6クラス",
       "mogitenIntroduction": "総合3類4,6クラス合同である「ハリーポッてーと賢者の石」からは、トルネードポテトと、飲み物を販売します！",
       "mogitenId": "41",
@@ -402,7 +402,7 @@
       "organizationName": "比較文化学類",
       "mogitenIntroduction": "Q.江戸幕府が開国と同時に求めたものは？ A. 比文のドリンクとパンケーキ(諸説あり)",
       "mogitenId": "45",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -416,7 +416,7 @@
     },
     {
       "mogitenName": "Kure-Crepe[くれくれ]",
-      "mogitenFontSize": "24px",
+      "mogitenFontSize": "16px",
       "organizationName": "Kure- cure",
       "mogitenIntroduction": "去年売り上げ1位のクレープ。バター香る生地。極上のクリーム。宝石のようなフルーツ。あの味をもう一度。",
       "mogitenId": "47",
@@ -429,7 +429,7 @@
       "organizationName": "総合学域群第2類 1年7,8クラス",
       "mogitenIntroduction": "サクサク絶品トルネードポテト販売中",
       "mogitenId": "48",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -447,7 +447,7 @@
       "organizationName": "総合学域群第1類1クラス",
       "mogitenIntroduction": "味はお楽しみ！ふわふわのベビーカステラと、暑さを吹っ飛ばす爽やかなラムネはいかがですか？",
       "mogitenId": "50",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
@@ -506,11 +506,11 @@
     },
     {
       "mogitenName": "フランクフルト工シス店",
-      "mogitenFontSize": "24px",
+      "mogitenFontSize": "16px",
       "organizationName": "工学システム学類1年1.2クラス",
       "mogitenIntroduction": "工シス1,2クラがフランクフルトを販売するぜ!ドリンクあるからぜひ来てくれよな!",
       "mogitenId": "57",
-      "holdingTime_1": "本祭のみ",
+      "holdingTime_1": "本祭(5/31)のみ",
       "holdingTime_2": ""
     },
     {
