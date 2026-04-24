@@ -7,7 +7,8 @@
     </div>
     <div class="bigsponsorContainer">
         <sponsorItem sponsorUrl="https://mentoru.jp/info/tsukuba.html" sponsorLogoUrl="/img/mentoru.jpg" :sponsorDescript="MentoruText"/>
-        <sponsorItem sponsorUrl="https://share.google/9LdguqAqQ8h0WncqU" sponsorLogoUrl="/img/yorimichi.jpg" :sponsorDescript="YorimichiTextorimichiText"/>
+        <sponsorItem sponsorUrl="https://gakuen-menkyo.jp/" sponsorLogoUrl="/img/gakuenmenkyo.png" :sponsorDescript="gakuenmenkyoText"/> 
+        <!-- プラスではるのひサイクルのバーナーが入る-->
     </div>
     
     <div class="sponsorsContainer">
@@ -56,6 +57,7 @@
             <span>本家かまどや つくば春日店</span>
         </div>
         <div class="miniCon">
+            <span>学園中央自動車学校</span>
             <span>あじ彩</span>
             <span>ファミリーマートつくば葛城店</span>
             <span>ガーリーショット</span>
@@ -75,7 +77,6 @@
             <span>カードックオノノ</span>
             <span>ごう家</span>
             <span>松見タクシー</span>
-            <span>七福軒</span>
         </div>
         <div class="miniCon">
             <span>ミート&デリ プラム</span>
@@ -87,13 +88,14 @@
             <span>免キラ★つくばベース</span>
             <span>ミュージックプラント</span>
             <span>自家焙煎コーヒーファクトリー</span>
-            <span>よりみちベーカリー</span>
+            <span>はるのひサイクル</span>
             <span>ホワイトバジル</span>
             <span>フリーダイブ</span>
             <span>大将別館</span>
             <span>Beer & café engi</span>
             <span>ラーメン逆流</span>
             <span>株式会社井上フード（カレー屋＆粉クリ）</span>
+            <span>七福軒</span>
         </div>
     </div>
 </template>
