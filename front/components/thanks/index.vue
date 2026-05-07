@@ -8,7 +8,7 @@
     <div class="bigsponsorContainer">
         <sponsorItem sponsorUrl="https://mentoru.jp/info/tsukuba.html" sponsorLogoUrl="/img/mentoru.jpg" :sponsorDescript="MentoruText"/>
         <sponsorItem sponsorUrl="https://gakuen-menkyo.jp/" sponsorLogoUrl="/img/gakuenmenkyo.png" :sponsorDescript="gakuenmenkyoText"/> 
-        <!-- プラスではるのひサイクルのバーナーが入る-->
+        <sponsorItem sponsorUrl="https://harunohi-cycle.net/" sponsorLogoUrl="/img/harunohi.jpg" :sponsorDescript="harunohiText"/> 
     </div>
     
     <div class="sponsorsContainer">
