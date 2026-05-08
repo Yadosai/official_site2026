@@ -29,7 +29,7 @@ docker compose down
 テント番号	団体名	店舗名	品目	PR文	出店
 <img width="3076" height="81" alt="image" src="https://github.com/user-attachments/assets/3f88888a-729a-4202-bc19-e25cce6c4db9" />
 
-一列目がこのようになっていれば良い。見出し判定してstringで抜き出す。
+一行目がこのようになっていれば良い。見出し判定してstringで抜き出す。
 
 アップロード時にactions動いて自動デプロイされるよ。
 
