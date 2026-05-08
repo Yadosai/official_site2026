@@ -1,7 +1,7 @@
 # official_site2026
 
 ```sh
-git clone git@github.com:Yadosai/official_site2024new.git
+git clone git@github.com:Yadosai/official_site2026.git
 docker compose up -d
 ```
 http://localhost:3000
