@@ -21,6 +21,9 @@ docker compose down
 ```
 
 
+
+
+
 # 模擬店情報の更新方法
 指定形式のエクセルシートをofficial_site2026/data/配下に 「mogiten.xlsx」 のファイル名でアップロードする。
 
@@ -32,6 +35,9 @@ docker compose down
 一行目がこのようになっていれば良い。見出し判定してstringで抜き出す。
 
 アップロード時にactions動いて自動デプロイされるよ。
+
+
+
 
 # 協賛企業情報の更新方法
 
