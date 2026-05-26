@@ -33,7 +33,8 @@ export default {
 
 .sponsor-logo {
     height: auto;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
 }
 
 .sponsor-descript {
