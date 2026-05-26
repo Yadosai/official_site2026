@@ -84,7 +84,15 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap; //wrapで折り返し可に
+    gap: 10px;
+    padding: 20px;
     margin: 0;
+}
+
+.bigsponsorContainer .sponsor {
+    flex: 1 1 150px;
+    max-width: 220px;
 }
 .sponsorsContainer {
     display: flex;
