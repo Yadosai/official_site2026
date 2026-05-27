@@ -15,7 +15,7 @@
             <div class="a-text">{{ answer }}</div>
         </div>
         <div class="link">
-            <a href="pdf/50th pamphlet.pdf">
+            <a href="pdf/51th_pamphlet.pdf">
                 <div class="q-link">{{ linkText }}</div>
             </a>
         </div>
