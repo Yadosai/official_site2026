@@ -31,7 +31,7 @@
     </div>
 
     <div class="kikakuItemList">
-        <item kikakuID="1" title="ゆかたコンテスト" imgUrl="/img/kikaku/yukacon.JPG" holder="一年生・有志" :places="['メインステージ']":dates="['5月30日：18:30～19:30']"
+        <item kikakuID="1" title="ゆかたコンテスト" imgUrl="/img/kikaku/yukacon.JPG" holder="有志・サークル" :places="['メインステージ']":dates="['5月30日：18:30～19:30']"
             description="やどかり祭を最高に盛り上げるメイン企画。各チームが個性的なパフォーマンスで観客の皆さんを魅了し優勝を目指します。ゆかたを着た出演者を中心としたチーム一丸となってのパフォーマンスは必見です。" />
         <item kikakuID="2" title="火文字前パフォ・火文字" imgUrl="/img/kikaku/himoji.JPG" holder="全体装飾部局" :places="['平砂共用棟前']" :dates='["5月29日：21:05～21:30"]'
             description="委員による幻想的な火文字。例年漢字一文字に火を灯しますが、今年は何になるのでしょうか。そしてその直前に行われる筑波大学の団体によるパフォーマンスも見逃せません。" />
