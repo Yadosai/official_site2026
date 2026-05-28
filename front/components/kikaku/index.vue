@@ -33,18 +33,18 @@
     <div class="kikakuItemList">
         <item kikakuID="1" title="ゆかたコンテスト" imgUrl="/img/kikaku/yukacon.jpg" holder="一年生・有志" :places="['メインステージ']":dates="['5月30日：18:30～19:30']"
             description="やどかり祭を最高に盛り上げるメイン企画。各チームが個性的なパフォーマンスで観客の皆さんを魅了し優勝を目指します。ゆかたを着た出演者を中心としたチーム一丸となってのパフォーマンスは必見です。" />
-        <item kikakuID="2" title="火文字前パフォ・火文字" imgUrl="/img/kikaku/himoji.jpg" holder="全体装飾部局" :places="['平砂宿舎共用等前']" :dates='["5月29日：21:05～21:30"]'
+        <item kikakuID="2" title="火文字前パフォ・火文字" imgUrl="/img/kikaku/himoji.jpg" holder="全体装飾部局" :places="['みらしゃか前']" :dates='["5月29日：21:05～21:30"]'
             description="委員による幻想的な火文字。例年漢字一文字に火を灯しますが、今年は何になるのでしょうか。そしてその直前に行われる筑波大学の団体によるパフォーマンスも見逃せません。" />
         <item kikakuID="3" title="野外ライブ" imgUrl="/img/kikaku/live.jpg" holder="有志・サークル" :places="['メインステージ']" :dates='["5月29日：16:00～20:40"]'
             description="筑波大学のバンドサークルから出演者を集めて、ライブパフォーマンスを行ってもらう前夜祭の激アツ企画です。皆様が楽しめること間違いなしです。ぜひご来場ください。" />
-        <item kikakuID="4" title="御輿" imgUrl="/img/kikaku/mikosi.jpg" holder="一年生" :places="['未来社会デザイン棟前','メインストリート']" :dates='["5月30日：16:50～18:00"]'
+        <item kikakuID="4" title="御輿" imgUrl="/img/kikaku/mikosi.jpg" holder="一年生" :places="['みらしゃか前','メインストリート']" :dates='["5月30日：16:50～18:00"]'
             description="祭といえば、やっぱり御輿。御輿が会場のメインストリートを縦断する迫力満点の練り歩きと趣向を凝らしたパフォーマンスは必見です。" />
         <item kikakuID="5" title="やどかりダンス" imgUrl="/img/kikaku/dance.jpg" holder="有志・サークル" :places="['メインステージ']" :dates='["5月30日：12:50～15:35"]'
             description="筑波大学のダンス系サークルや部活がパフォーマンスをする企画です。それぞれの団体が独自のパフォーマンスを通じて表現し、団体それぞれに違った色をみることができます。ぜひ会場まで足を運んでみてください。" />
         <item kikakuID="6" title="ミニステージパフォーマンス" imgUrl="/img/kikaku/stage.jpg" holder="有志・サークル" :places="['平砂宿舎4・6号棟間']" 
             :dates='["5月29日：18:00～20:00","5月30日：12:00～16:15"]'
             description="筑波大学の団体がミニステージで演奏・パフォーマンスをする企画です。お気軽にお立ち寄りください。" />
-        <item kikakuID="7" title="ストリートパフォーマンス" imgUrl="/img/kikaku/street.jpg" holder="有志・サークル" :places="['未来社会デザイン棟前前交差点']" 
+        <item kikakuID="7" title="ストリートパフォーマンス" imgUrl="/img/kikaku/street.jpg" holder="有志・サークル" :places="['みらしゃか前交差点']" 
             :dates='["5月30日：13:00～15:30"]'
             description="筑波大学の団体がストリート上で演奏・パフォーマンスをする企画です。お気軽にお立ち寄りください。" />
         <item kikakuID="8" title="やどカラ" imgUrl="/img/kikaku/noImg.jpg" holder="有志" :places="['みらしゃか前']" :dates='["5月30日：14:30～16:40"]'
@@ -53,6 +53,8 @@
             description="縁日は巨大だるま落としや、射的などで遊べる企画です。お祭りらしいエリアになっているのでぜひ楽しんでいってください。" />
         <item kikakuID="10" title="本祭OP" imgUrl="/img/kikaku/OP.jpg" holder="有志・サークル" :places="['メインステージ']"  :dates='["5月30日：11:10～12:05"]'
             description="本祭オープニングでは筑波大学のサークルがやどかり祭本祭の開幕を盛り上げてくれます。みんなで祭の開幕をむかえましょう。" />
+        <item kikakuID="11" title="表彰式・花火打ち上げ" imgUrl="/img/kikaku/noImg.jpg" holder="実行委員" :places="['メインステージ']" :dates='["5月30日：19:40～21:00"]'
+            description="やどかり祭本祭のフィナーレを飾る表彰式。ゆかたコンテストの優勝チームがここで発表されます。そして祭の締めくくりとして、20:50からは打ち上げ花火が平砂の夜空を彩ります。感動のクライマックスをぜひ最後までご覧ください。" />
     </div>
 
 </template>
@@ -97,7 +99,7 @@ export default {
                     { id: 5, stageId: 1, kikakuName: 'ダンス(purplume)', kikakuStart: '14:45', kikakuEnd: '15:10' },
                     { id: 5, stageId: 1, kikakuName: 'ダンス(Bombs！)', kikakuStart: '15:10', kikakuEnd: '15:35' },
                     { id: 1, stageId: 1, kikakuName: 'ゆかコン', kikakuStart: '18:30', kikakuEnd: '19:30' },
-                    { id: 1, stageId: 1, kikakuName: '表彰式(20:50花火打上)', kikakuStart: '19:40', kikakuEnd: '21:00' },
+                    { id: 11, stageId: 1, kikakuName: '表彰式(20:50花火打上)', kikakuStart: '19:40', kikakuEnd: '21:00' },
                     { id: 6, stageId: 3, kikakuName: 'ミニステージ(Doo-Wop)', kikakuStart: '12:00', kikakuEnd: '12:30' },
                     { id: 6, stageId: 3, kikakuName: 'ミニステージ(アンプラグド)', kikakuStart: '12:45', kikakuEnd: '13:15' },
                     { id: 6, stageId: 3, kikakuName: 'ミニステージ(ヒーローアクション同好会)', kikakuStart: '13:30', kikakuEnd: '14:00' },
