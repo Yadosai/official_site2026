@@ -33,7 +33,7 @@
     <div class="kikakuItemList">
         <item kikakuID="1" title="ゆかたコンテスト" imgUrl="/img/kikaku/yukacon.JPG" holder="一年生・有志" :places="['メインステージ']":dates="['5月30日：18:30～19:30']"
             description="やどかり祭を最高に盛り上げるメイン企画。各チームが個性的なパフォーマンスで観客の皆さんを魅了し優勝を目指します。ゆかたを着た出演者を中心としたチーム一丸となってのパフォーマンスは必見です。" />
-        <item kikakuID="2" title="火文字前パフォ・火文字" imgUrl="/img/kikaku/himoji.JPG" holder="全体装飾部局" :places="['みらしゃか前']" :dates='["5月29日：21:05～21:30"]'
+        <item kikakuID="2" title="火文字前パフォ・火文字" imgUrl="/img/kikaku/himoji.JPG" holder="全体装飾部局" :places="['平砂共用棟前']" :dates='["5月29日：21:05～21:30"]'
             description="委員による幻想的な火文字。例年漢字一文字に火を灯しますが、今年は何になるのでしょうか。そしてその直前に行われる筑波大学の団体によるパフォーマンスも見逃せません。" />
         <item kikakuID="3" title="野外ライブ" imgUrl="/img/kikaku/live.JPG" holder="有志・サークル" :places="['メインステージ']" :dates='["5月29日：16:00～20:40"]'
             description="筑波大学のバンドサークルから出演者を集めて、ライブパフォーマンスを行ってもらう前夜祭の激アツ企画です。皆様が楽しめること間違いなしです。ぜひご来場ください。" />
@@ -44,7 +44,7 @@
         <item kikakuID="6" title="ミニステージパフォーマンス" imgUrl="/img/kikaku/stage.JPG" holder="有志・サークル" :places="['平砂宿舎4・6号棟間']" 
             :dates='["5月29日：18:00～20:00","5月30日：12:00～16:15"]'
             description="筑波大学の団体がミニステージで演奏・パフォーマンスをする企画です。お気軽にお立ち寄りください。" />
-        <item kikakuID="7" title="ストリートパフォーマンス" imgUrl="/img/kikaku/street.JPG" holder="有志・サークル" :places="['みらしゃか前交差点']" 
+        <item kikakuID="7" title="ストリートパフォーマンス" imgUrl="/img/kikaku/street.JPG" holder="有志・サークル" :places="['平砂共用棟前交差点']" 
             :dates='["5月30日：13:00～15:30"]'
             description="筑波大学の団体がストリート上で演奏・パフォーマンスをする企画です。お気軽にお立ち寄りください。" />
         <item kikakuID="8" title="やどカラ" imgUrl="/img/kikaku/noImg.jpg" holder="有志" :places="['みらしゃか前']" :dates='["5月30日：14:30～16:40"]'
@@ -85,9 +85,9 @@ export default {
                     { id: 6, stageId: 3, kikakuName: 'ミニステージ(筑波大学アカペラサークルDoo-Wop)', kikakuStart: '18:00', kikakuEnd: '18:30' },
                     { id: 6, stageId: 3, kikakuName: 'ミニステージ(現代視覚文化研究会)', kikakuStart: '18:50', kikakuEnd: '19:20' },
                     { id: 6, stageId: 3, kikakuName: 'ミニステージ(筑波大学津軽三味線倶楽部無限塾)', kikakuStart: '19:30', kikakuEnd: '20:00' },
-                    { id: 2, stageId: 4, kikakuName: '火文字前パフォ(Neopolice bigband)', kikakuStart: '20:00', kikakuEnd: '20:20' },
-                    { id: 2, stageId: 4, kikakuName: '火文字前パフォ(火廻)', kikakuStart: '20:40', kikakuEnd: '21:00' },
-                    { id: 2, stageId: 4, kikakuName: '火文字', kikakuStart: '21:05', kikakuEnd: '21:30' },
+                    { id: 2, stageId: 7, kikakuName: '火文字前パフォ(Neopolice bigband)', kikakuStart: '20:00', kikakuEnd: '20:20' },
+                    { id: 2, stageId: 7, kikakuName: '火文字前パフォ(火廻)', kikakuStart: '20:40', kikakuEnd: '21:00' },
+                    { id: 2, stageId: 7, kikakuName: '火文字', kikakuStart: '21:05', kikakuEnd: '21:30' },
                 ],
                 honsai: [
                     { id: 10, stageId: 1, kikakuName: '本祭OP', kikakuStart: '11:10', kikakuEnd: '12:05' },
@@ -122,14 +122,15 @@ export default {
                     { id: 1, name: 'メインステージ' },
                     { id: 2, name: 'メインステージ横' },
                     { id: 3, name: '平砂宿舎4・6号棟間' },
-                    { id: 4, name: 'みらしゃか前' }
+                    { id: 7, name: '平砂共用棟前' }
+
                 ],
                 honsai: [
                     { id: 1, name: 'メインステージ' },
                     { id: 2, name: 'メインステージ横' },
                     { id: 3, name: '平砂宿舎4・6号棟間' },
                     { id: 4, name: 'みらしゃか前' },
-                    { id: 5, name: 'みらしゃか前交差点' },
+                    { id: 5, name: '平砂共用棟前交差点' },
                     { id: 6, name: 'メインストリート' },
                 ]
             },
