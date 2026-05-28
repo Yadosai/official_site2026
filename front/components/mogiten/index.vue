@@ -1,11 +1,11 @@
 <template>
     <div id="mogitenEyeCatch">
         <p>模擬店情報</p>
-        <p class="mapintroduction">（マップ上の番号をタップすると簡易的な模擬店情報がすぐに確認できます）</p>
+        <!-- <p class="mapintroduction">（マップ上の番号をタップすると簡易的な模擬店情報がすぐに確認できます）</p> -->
     </div>
-    <div id="mogitenMapContainer">
+    <!-- <div id="mogitenMapContainer">
         <mogitenOverlay class="map-overlay" />
-    </div>
+    </div> -->
     <div id="mogitenItemContainer">
         <item v-for="mogiten in mogitenData" :key="mogiten.mogitenId"
             :mogitenName="mogiten.mogitenName"
