@@ -1,12 +1,11 @@
 <template>
-    <comingsoon />
+    <performer />
 </template>
   
 <script>
-import comingsoon from '~/components/comingsoon/index.vue';
-
+import performer from '~/components/performer/index.vue';
 export default {
-    components: { comingsoon },
+    components: { performer },
     layout: "default",
 }
 </script>
