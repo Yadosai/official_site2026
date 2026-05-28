@@ -8,6 +8,10 @@
         </div>
         
     </div>
+    <div id="pamphlet">
+        <p>~以下のボタンよりパンフレットを閲覧できます~</p>
+        <a href="/pdf/51th_pamphlet.pdf" target="_blank" class="pamphlet-btn">パンフレットを見る</a>
+    </div>
     <div id="LinkButtons">
         <buttonItem textHighlightedFirst="模" textMiddlePart="擬店" colorType="black" position="left"
             navigateTo="mogiten" />
@@ -40,6 +44,37 @@ export default {
 </script>
 
 <style lang="scss">
+#pamphlet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 24px;
+    background: black;
+
+    p {
+        margin: 0;
+        font-size: 14px;
+        color: white;
+        font-family: map-get($font-styles, family);
+    }
+}
+
+.pamphlet-btn {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 13px;
+    font-family: map-get($font-styles, family);
+    color: $secondary-color;
+    background: $primary-color;
+    border-radius: 4px;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
 #eyeCatch {
     position: relative;
     height: 60vh;
@@ -191,6 +226,15 @@ export default {
 }
 
 @media (min-width: 950px) {
+    #pamphlet p {
+        font-size: 24px;
+    }
+
+    .pamphlet-btn {
+        padding: 10px 32px;
+        font-size: 16px;
+    }
+
     #eyeCatch {
         height: calc(100vh - 60px);
     }
