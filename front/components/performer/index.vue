@@ -48,9 +48,7 @@
       twitterIDUrl="http://twitter.com/Folklore_tkb" />
     <item performerName="ヒーローアクション同好会" performerNameFontsize="20"
       :kikakuList="[{ name: 'ミニステージ (5月30日 13:30~)', url: '/kikaku#6' }]" :mogitenList="[]" />
-    <item performerName="Sheep" performerNameFontsize="20"
-      :kikakuList="[{ name: 'ストリートパフォーマンス (5月30日 14:20~)', url: '/kikaku#7' }]" :mogitenList="[]" />
-    <item performerName="つくばフォーク村" performerNameFontsize="20"
+<item performerName="つくばフォーク村" performerNameFontsize="20"
       :kikakuList="[{ name: '野外ライブ (5月29日 17:00~) 他', url: '/kikaku#3' }]" :mogitenList="[]"
       instaID="@tsukuba_fv" instaIDUrl="http://instagram.com/tsukuba_fv" twitterID="@tsukuba_fv"
       twitterIDUrl="http://twitter.com/tsukuba_fv" />
