@@ -108,7 +108,7 @@ export default {
                     { id: 6, stageId: 3, kikakuName: 'ミニステージ(無絃塾)', kikakuStart: '15:45', kikakuEnd: '16:15' },
                     { id: 7, stageId: 5, kikakuName: 'ストリートパフォーマンス(Doo-Wop)', kikakuStart: '13:00', kikakuEnd: '13:30' },
                     { id: 7, stageId: 5, kikakuName: 'ストリートパフォーマンス(無絃塾)', kikakuStart: '13:40', kikakuEnd: '14:10' },
-                    { id: 7, stageId: 5, kikakuName: 'ストリートパフォーマンス(Sheep)', kikakuStart: '14:20', kikakuEnd: '14:50' },
+
                     { id: 7, stageId: 5, kikakuName: 'ストリートパフォーマンス(現代視覚文化研究会)', kikakuStart: '15:00', kikakuEnd: '15:30' },
                     { id: 4, stageId: 6, kikakuName: '御輿(パフォーマンス・練り歩き)', kikakuStart: '16:50', kikakuEnd: '18:00' },
                     // { id: 4, stageId: 4, kikakuName: '御輿展示', kikakuStart: '9:30', kikakuEnd: '15:45' },
