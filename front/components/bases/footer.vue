@@ -22,7 +22,13 @@
                 </a>
             </li>
         </ul>
-        <p class="footerText">©第51回宿舎祭実行委員会<br>当サイトでは、アクセスログの収集・解析にGoogle
+        <p class="footerText">©第52回宿舎祭実行委員会</p>
+        <p class="visitorNotice">
+            <span class="visitorNoticeTitle">ご来場の皆様へ</span><br>
+            当日の様子は、公式SNSやホームページ等でご紹介（写真・動画の掲載）させていただく場合がございます。<br>
+            掲載にあたり配慮が必要な方は、お手数ですが各SNSのダイレクトメールまでご連絡をお願いいたします。
+        </p>
+        <p class="footerText">当サイトでは、アクセスログの収集・解析にGoogle
             アナリティクスを使用しております。GoogleアナリティクスではCookieを使用し、個人を特定する情報を含まずにログを収集しております。また、収集されるログはGoogleのプライバシーポリシーに基づいて管理されます。
         </p>
     </div>
@@ -87,6 +93,21 @@ const route = useRoute();
     font-size: 10px;
 }
 
+.visitorNotice {
+    font-family: map-get($font-styles, family);
+    font-style: map-get($font-styles, style);
+    font-weight: map-get($font-styles, weight);
+    line-height: map-get($font-styles, line-height);
+    color: $tertiary-color;
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.visitorNoticeTitle {
+    font-weight: bold;
+}
+
 .footerText {
     font-family: map-get($font-styles, family);
     font-style: map-get($font-styles, style);
@@ -114,6 +135,10 @@ const route = useRoute();
 }
 
 #darkFooter .footerText  {
+    color: $secondary-color;
+}
+
+#darkFooter .visitorNotice {
     color: $secondary-color;
 }
 
