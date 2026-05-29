@@ -22,13 +22,12 @@
                 </a>
             </li>
         </ul>
-        <p class="footerText">©第52回宿舎祭実行委員会</p>
         <p class="visitorNotice">
             <span class="visitorNoticeTitle">ご来場の皆様へ</span><br>
             当日の様子は、公式SNSやホームページ等でご紹介（写真・動画の掲載）させていただく場合がございます。<br>
             掲載にあたり配慮が必要な方は、お手数ですが各SNSのダイレクトメールまでご連絡をお願いいたします。
         </p>
-        <p class="footerText">当サイトでは、アクセスログの収集・解析にGoogle
+        <p class="footerText">©第52回宿舎祭実行委員会<br>当サイトでは、アクセスログの収集・解析にGoogle
             アナリティクスを使用しております。GoogleアナリティクスではCookieを使用し、個人を特定する情報を含まずにログを収集しております。また、収集されるログはGoogleのプライバシーポリシーに基づいて管理されます。
         </p>
     </div>
