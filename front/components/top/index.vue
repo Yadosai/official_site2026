@@ -10,7 +10,7 @@
     </div>
     <div id="pamphlet">
         <p>~以下のボタンよりパンフレットを閲覧できます~</p>
-        <a href="/pdf/51th_pamphlet.pdf" target="_blank" class="pamphlet-btn">パンフレットを見る</a>
+        <a href="/pdf/51th_pamphlet.pdf" target="_blank" class="pamphlet-btn">パンフレットを閲覧</a>
     </div>
     <div id="LinkButtons">
         <buttonItem textHighlightedFirst="模" textMiddlePart="擬店" colorType="black" position="left"
